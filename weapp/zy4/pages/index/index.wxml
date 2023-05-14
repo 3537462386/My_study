@@ -1,0 +1,54 @@
+<!--pages/operation/op4/index.wxml-->
+<view class="container" wx:if="{{!isCard}}">
+<button bindtap="goToForm">创建医疗急救卡</button>
+</view>
+ 
+<!-- 医疗急救卡创建完成后显示该页面 -->
+<view wx:else>
+<view class="row box">
+<label>出生日期</label>
+<text>{{myCard.date}}</text>
+<label>血型</label>
+<text>{{myCard.blood}}</text>
+</view>
+ 
+<view class="row box">
+<label>身高</label>
+<text>{{myCard.height}}厘米</text>
+<label>体重</label>
+<text>{{myCard.weight}}千克</text>
+</view>
+ 
+<view class="col box">
+<label>医疗状况</label>
+<text>{{myCard.ylzk}}</text>
+</view>
+ 
+<view class="col box">
+<label>医疗笔记</label>
+<text>{{myCard.ylbj}}</text>
+</view>
+ 
+<view class="col box">
+<label>过敏反应</label>
+<text>{{myCard.gmfy}}</text>
+</view>
+ 
+<view class="col box">
+<label>用药</label>
+<text>{{myCard.yy}}</text>
+</view>
+ 
+<view class="row box">
+<label>器官捐赠者</label>
+<text>{{myCard.qgjz?'是':'否'}}</text>
+</view>
+ 
+<view class="row box">
+<label>紧急联系人</label>
+<text>{{myCard.tel}}</text>
+</view>
+ 
+<button id="btn" bindtap="makeCall">打电话给紧急联系人</button>
+<button id="btn" bindtap="goToForm">编辑医疗急救卡</button>
+</view>

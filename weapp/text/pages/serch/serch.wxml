@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="group">
+        <view class="item" wx:for="{{pyq}}" wx:key="index">
+            <image src="{{item.icon}}" />
+            <text space="nbsp"> {{item.text}}                                                   </text>
+            <image src="/images/into.png" />
+        </view>
+    </view>
+    <view class="group">
+        <view class="item" wx:for="{{sph}}" wx:key="index">
+            <image src="{{item.icon}}" />
+            <text space="nbsp"> {{item.text}}                                                      </text>
+            <image src="/images/into.png" />
+        </view>
+    </view>
+    <view class="group">
+        <view class="item" wx:for="{{sys}}" wx:key="index">
+            <image src="{{item.icon}}" />
+            <text space="nbsp"> {{item.text}}                                                   </text>
+            <image src="/images/into.png" />
+        </view>
+    </view>
+    <view class="group">
+        <view class="item" wx:for="{{xcx}}" wx:key="index">
+            <image src="{{item.icon}}" />
+            <text space="nbsp"> {{item.text}}                                                  </text>
+            <image src="/images/into.png" />
+        </view>
+    </view>
+</view>

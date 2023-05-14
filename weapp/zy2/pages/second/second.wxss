@@ -1,0 +1,193 @@
+/* pages/second/second.wxss */
+.container{
+  width: 100vw;
+  height:100vh;
+
+}
+.bg {
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(70px);
+}
+.title{
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 80px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  /* border: 2px solid white; */
+}
+
+.playContain{
+  width: 100%;
+  height: 305px;
+  /* border:2px solid white; */
+  margin: 30px auto;
+}
+.bigimg{
+  display: block;
+  width: 270px;
+  height:270px;
+  border:2px solid white;
+  margin: 0px auto;
+  border-radius: 50%;
+  
+ 
+}
+.anima{
+  animation: example 15s infinite linear;
+}
+@keyframes example {
+  from { 
+    transform: rotate(0deg); 
+} 
+to { 
+    transform: rotate(360deg); 
+}
+}
+/* 进度条 */
+.process{
+  width: 100%;
+  height: 50px;
+ display: flex;
+ flex-direction: row;
+  margin: 20px auto;
+}
+slider{
+  width: 60%;
+  margin:18px auto;
+ 
+  
+}
+/* 进度条前的数字 */
+.begin {
+  display: block;
+  width: 15%;
+  /* padding: 10px;
+   */
+   padding-left: 15px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  /* border: 2px solid white; */
+  /* float: left; */
+}
+
+
+/* 选择器 */
+.select{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  /* margin-top: px; */
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.smallbutton{
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: rgb(206,206,231);
+}
+.bigbutton{
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+  background-color: rgb(206,206,231);
+}
+/* 小按钮内边距 */
+.ptsmall{
+  padding:10px;
+ }
+/* 图标大小 */
+.imgp{
+  width: 30px;
+  height: 30px;
+}
+/* 播放与暂停图标内上边距 */
+.pt{
+ padding-top: 15px;
+}
+
+/* 播放图标左边距 */
+.ml{
+  margin-left: 4px;
+}
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+button:hover  image{
+  scale: 1.1;
+  transition: 1.5s;
+}
+/* 播放列表 */
+.list{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  bottom: 0;
+  /* position: absolute; */
+  width: 100%;
+  height: 300px;
+  background-color: rgb(204,204,204);
+  overflow: hidden;
+  /* top: 58%; */
+  opacity: 0.8;
+  /* z-index: 100; */
+}
+.listtext{
+  display: block;
+  width: 100%;
+  height: 80px;
+  line-height:80px;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(204,204,204);
+  color: #000;
+}
+scroll-view{
+  width: 100%;
+  height: 210px;
+  white-space: nowrap;
+}
+.listimgbox{
+  width: 100%;
+  height: 70px;
+  display:flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  line-height: 70px;
+  padding: 10px;
+  background-color: rgb(153,153,153);
+  color: #000;
+}
+.listimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.imgtext{
+  display: block;
+  width: 100px;
+  margin-left: 50px;
+  font-size: 24px;
+}
+/* 正在播放
+ */
+ .boastcasetext{
+   display: block;
+   width: 80px;
+  
+  margin-left: 50px;
+  font-size: 18px;
+  color: red;
+ }

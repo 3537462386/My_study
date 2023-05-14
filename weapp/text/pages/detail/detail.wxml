@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="monney">
+    <view class="item">
+      <image src="/images/sfk.png" />
+      <text>收付款</text>
+    </view>
+    <view class="item">
+      <image src="/images/qb.png" />
+      <text>钱包</text>
+      
+    </view>
+  </view>
+  <view class="groupto">
+    <text class="textto">金融理财</text>
+    <view class="group">
+      <view class="item2" wx:for="{{one}}" wx:key="index">
+        <image src="{{item.icon}}" />
+        <text> {{item.text}} </text>
+      </view>
+    </view>
+  </view>
+  <view class="groupto">
+    <text class="textto">生活服务</text>
+    <view class="group">
+      <view class="item2" wx:for="{{two}}" wx:key="index">
+        <image src="{{item.icon}}" />
+        <text> {{item.text}} </text>
+      </view>
+    </view>
+  </view>
+  <view class="groupto">
+    <text class="textto">交通出行</text>
+    <view class="group">
+      <view class="item2" wx:for="{{three}}" wx:key="index">
+        <image src="{{item.icon}}" />
+        <text> {{item.text}} </text>
+      </view>
+    </view>
+  </view>
+  <view class="groupto">
+    <text class="textto">购物消费</text>
+    <view class="group">
+      <view class="item2" wx:for="{{four}}" wx:key="index">
+        <image src="{{item.icon}}" />
+        <text> {{item.text}} </text>
+      </view>
+    </view>
+  </view>
+
+
+</view>

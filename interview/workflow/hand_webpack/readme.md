@@ -1,0 +1,10 @@
+# 手写webpack
+
+- 依赖关系
+    - webpack vite 本质？
+        1. main.js 类似的入口
+            单个文件的视角 
+            index.js -> module  text.js -> babel ->分词 抽象语法树 AST -> import 2 require
+        2. 整理出来依赖关系
+        3. build 一个文件
+            word.js -> message.js -> index.js 

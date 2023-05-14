@@ -1,0 +1,12 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "- npm init vite 发生了什么？\r     使用vite 工程化套件 完成了项目创建的流程\r     - src 是开发目录\r         - main.js 入口文件\r             - import es6\r     - index.html #root 挂载点\r     - server 3000 index.html 首页",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

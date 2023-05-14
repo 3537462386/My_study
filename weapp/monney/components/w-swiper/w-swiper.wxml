@@ -1,0 +1,16 @@
+<swiper
+  indicator-dots="true"
+  indicator-active-color="white"
+  indicator-color="#A9A9A9"
+  interval="3000"
+  circular="true"
+  autoplay="true"
+  class="swiper"
+>
+  <block>
+    <swiper-item>
+      <image class="swiper-image" src="" mode=""/>
+    </swiper-item>
+  </block>
+  
+</swiper>

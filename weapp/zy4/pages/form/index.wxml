@@ -1,0 +1,60 @@
+<!--pages/operation/op4/form/index.wxml-->
+<form bindsubmit="submitForm">
+<view class="row box">
+<label>出生日期</label>
+<picker name='date' mode='date' bindchange='dateChange' value='{{date}}'>
+<view>{{date}}</view>
+</picker>
+</view>
+ 
+<view class="col box">
+<label>医疗状况</label>
+<textarea name='ylzk' auto-height value="{{ylzk}}" ></textarea> 
+</view>
+ 
+<view class="col box">
+<label>医疗笔记</label>
+<textarea name='ylbj' auto-height value="{{ylbj}}" ></textarea> 
+</view>
+ 
+<view class="col box">
+<label>过敏反应</label>
+<textarea name='gmfy' auto-height value="{{gmfy}}" ></textarea> 
+</view>
+ 
+<view class="col box">
+<label>用药</label>
+<textarea name='yy' auto-height value="{{yy}}" ></textarea> 
+</view>
+ 
+<view class="row box">
+<label>血型</label>
+<picker name='blood' range='{{bloodItems}}' bindchange='bloodChange' value='{{blood}}'>
+<view>
+{{blood}}型
+</view>
+</picker>
+</view>
+ 
+<view class="row box">
+<label>器官捐赠者</label>
+<switch name='qgjz' color="#FF2D55" checked="{{qgjz}}" auto-height value="qgjz" ></switch>
+</view>
+ 
+<view class="row box">
+<label>身高</label>
+<input name='height' class='shortInput' type="digit" value="{{height}}"></input>
+<text>厘米</text>
+<label>体重</label>
+<input name='weight' class="shortInput" type="digit" value="{{weight}}"></input>
+<text>千克</text>
+</view>
+ 
+<view class="row box">
+<label>紧急联系人</label>
+<input name='tel' class="longInput" type="number" value="{{tel}}"></input>
+</view>
+ 
+<button id="btn" form-type="submit">完成创建</button>
+<button id="btn" bindtap="delMyCard">删除医疗急救卡</button>
+</form>

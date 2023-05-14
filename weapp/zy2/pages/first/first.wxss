@@ -1,0 +1,21 @@
+/* pages/first/first.wxss */
+.contain{
+  width: 90%;
+  height:320px;
+  margin: 20px auto;
+  border: 1px solid grey;
+  text-align: center;
+}
+text{
+  display: block;
+  margin-top:15px
+}
+picker-view {
+  width: 100%;
+  height: 260px;
+}
+
+.col{
+
+  line-height: 50px;
+}

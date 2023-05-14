@@ -1,0 +1,793 @@
+{
+    "resultCode": 200,
+    "message": "SUCCESS",
+    "data": [
+        {
+            "categoryId": 100,
+            "categoryLevel": 1,
+            "categoryName": "推荐",
+            "item": [
+                {
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 101,
+            "categoryLevel": 1,
+            "categoryName": "热门",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 102,
+            "categoryLevel": 1,
+            "categoryName": "黑马",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 103,
+            "categoryLevel": 1,
+            "categoryName": "游戏",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 104,
+            "categoryLevel": 1,
+            "categoryName": "地区",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 106,
+            "categoryLevel": 1,
+            "categoryName": "娱乐",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 107,
+            "categoryLevel": 1,
+            "categoryName": "动漫",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 108,
+            "categoryLevel": 1,
+            "categoryName": "数码",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 109,
+            "categoryLevel": 1,
+            "categoryName": "推荐",
+            "item": [
+                {
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    
+                    "parentId": 109,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                }
+                
+            ]
+        },
+        {
+            "categoryId": 110,
+            "categoryLevel": 1,
+            "categoryName": "热门",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 111,
+            "categoryLevel": 1,
+            "categoryName": "黑马",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 112,
+            "categoryLevel": 1,
+            "categoryName": "游戏",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 113,
+            "categoryLevel": 1,
+            "categoryName": "地区",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 114,
+            "categoryLevel": 1,
+            "categoryName": "娱乐",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 115,
+            "categoryLevel": 1,
+            "categoryName": "动漫",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        },
+        {
+            "categoryId": 116,
+            "categoryLevel": 1,
+            "categoryName": "数码",
+            "item": [
+                {
+                    "categoryId": 1,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "LOL",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNocX.jpeg",
+                    "guanzhu":"1.5K",
+                    "tiezi":"33.7K"
+                },
+                {
+                    "categoryId": 2,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "电脑",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNSnP.jpeg",
+                    "guanzhu":"363.8",
+                    "tiezi":"4.7K"
+                    
+                },
+                {
+                    "categoryId": 3,
+                    "parentId": 100,
+                    "categoryLevel": 2,
+                    "title": "bilibili",
+                    "img":"https://i.328888.xyz/2023/03/30/iCNsst.jpeg",
+                    "guanzhu":"422.3",
+                    "tiezi":"12.5K"
+                    
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<!--pages/first/first.wxml-->
+<view class="contain">
+  <text>今日菜单</text>
+  <text>{{menu}}</text>
+  <picker-view value="{{value}}" indicator-style="height:50px" bindchange="pickerviewChange">
+    <picker-view-column>
+      <view class="col" wx:for="{{soup}}" wx:key="this">
+        {{item}}
+      </view>
+    </picker-view-column>
+    <picker-view-column>
+      <view class="col" wx:for="{{maincourse}}" wx:key="this">
+        {{item}}
+      </view>
+    </picker-view-column>
+    <picker-view-column>
+      <view class="col" wx:for="{{dessert}}" wx:key="this">
+        {{item}}
+      </view>
+    </picker-view-column>
+  </picker-view>
+</view>

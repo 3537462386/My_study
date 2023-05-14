@@ -1,0 +1,12 @@
+{
+  "name": "jsonp",
+  "version": "1.0.0",
+  "description": "json with padding",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

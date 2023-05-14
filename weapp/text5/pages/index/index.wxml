@@ -1,0 +1,64 @@
+<!--pages/lab/lab5/index.wxml-->
+<view class="container">
+  <view class="header">
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+      <view class="picker">
+        {{region[0]}}，{{region[1]}}，{{region[2]}}
+        <image class="image1" src="../../images/place.png"/>
+      </view>
+    </picker>
+  </view>
+  <view class="body">
+    <view class="body_item">
+      <view class="body_item_t">{{ now.temp }}°</view>
+      <view class="body_item_f">{{now.text}}</view>
+    </view>
+    <image  class="image2" src="/images/icons/{{now.icon}}.svg" mode="widthFix" />
+  </view>
+  <view class="foot">
+    <view class="item">
+      <view class="text">
+        湿度
+      </view>
+      <view class="text">
+        气压
+      </view>
+      <view class="text">
+        能见度
+      </view>
+    </view>
+    <view class="item">
+      <view class="data">
+        {{ now.humidity }} %
+      </view>
+      <view class="data">
+        {{ now.pressure }} hPa
+      </view>
+      <view class="data">
+        {{ now.vis }} km
+      </view>
+    </view>
+    <view class="item">
+      <view class="text">
+        风向
+      </view>
+      <view class="text">
+        风速
+      </view>
+      <view class="text">
+        风力
+      </view>
+    </view>
+    <view class="item">
+      <view class="data">
+        {{ now.windDir }}
+      </view>
+      <view class="data">
+        {{ now.windSpeed }} 公里/小时
+      </view>
+      <view class="data">
+        {{ now.windScale }} 级
+      </view>
+    </view>
+  </view>
+</view>

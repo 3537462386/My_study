@@ -1,0 +1,4 @@
+<view class="container">
+  <button bindtap="choosefile">选择文件</button>
+  <button type="primary" bindtap="submit">上传</button>
+</view>

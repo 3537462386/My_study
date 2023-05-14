@@ -1,0 +1,4 @@
+/* pages/playgame/index.wxss */
+.text {
+  width: 38%;
+}

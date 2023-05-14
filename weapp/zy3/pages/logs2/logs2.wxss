@@ -1,0 +1,16 @@
+.title{
+  text-align: center;
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+image{
+  margin-left: 30px;
+}
+
+.box{
+  border: 1px wheat solid;
+}

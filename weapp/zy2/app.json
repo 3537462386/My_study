@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/first/first",
+    "pages/second/second"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "作业2",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

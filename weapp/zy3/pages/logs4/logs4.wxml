@@ -1,0 +1,7 @@
+<view class="box">
+    <view class="title">wx.getLocation(OBJECT)</view>
+    <map latitude="{{lat}}" longitude="{{lon}}"></map>
+    <button type="primary" bindtap="getLocation">获取位置</button>
+    <view class="title">纬度：{{lat}}</view>
+    <view class="title">经度：{{lon}}</view>
+</view>

@@ -1,0 +1,50 @@
+/* pages/operation/op4/index.wxss */
+form,textarea{
+    width: 100%;
+  }
+  .shortInput{
+    width: 100rpx;
+  }
+  .longInput{
+    width: 100rpx;
+  }
+  button{
+    background-color: #FF2D55;
+    color: white;
+    margin:20rpx;
+
+  }
+#btn {
+    width: 100%;
+    padding: 20rpx;
+   }
+   
+  /* 标签样式 */
+  label{
+    color: #FF2D55;
+    margin-right: 25rpx; /*右边距*/
+  }
+   
+  /* 水平布局 */
+  .row{
+    display: flex;
+    flex-direction: row; /*水平布局*/
+  }
+   
+  /*垂直布局*/
+  .col{
+    display: flex;
+    flex-direction: column;/*垂直布局*/
+  }
+   
+  /*条目盒子*/
+  .box{
+    border-bottom: 1rpx solid silver;/*1rpx 宽的银色实线下边框*/
+    margin: 10rpx 20rpx;
+    padding: 10rpx; /*内边距*/
+  }
+   
+  /* 文本样式 */
+  text{
+    margin-right: 25rpx;
+  }

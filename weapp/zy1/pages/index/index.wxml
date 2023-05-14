@@ -1,0 +1,5 @@
+<view class="f">
+  <view class="s {{ischange ? 'r' : 'y'}}" bindtap="changecolor">
+    
+  </view>
+</view>

@@ -1,0 +1,12 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+.container button {
+  color: green;
+  weight:5vh;
+  height: 7vh;  
+}
+.container text {
+  color: white;
+}

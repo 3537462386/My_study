@@ -1,0 +1,9 @@
+<picker mode="multiSelector" range="{{multiSelectorItems}}" bindchange='multiSelectorChange'>
+  <view class="all"> 
+    <text>菜谱</text>
+    <view class="box">
+      <view><text>今日菜单</text></view>
+      <view><text>当前选择:{{multiSelector}}</text></view>
+    </view>
+  </view>
+</picker>

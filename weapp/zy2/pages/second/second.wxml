@@ -1,0 +1,46 @@
+<!--pages/second/second.wxml-->
+<view class="container">
+  <image src="{{plays.image}}" class="bg"/>
+  <text class="title">{{plays.title}}</text>
+  <view class="playContain">
+    <image src="{{plays.image}}" class="bigimg anima" style="animation-play-state:{{anima?'running':'paused'}}" mode="" />
+  </view>
+  <view class="process">
+    <text class="begin ">{{nowtime}}</text>
+    <slider bindchange="" min='0' max='{{maxtime}}' value="{{value}}" activeColor="red" block-size="20" block-color="white" bindchange="sliderChange" />
+    <text class="begin">{{plays.duration}}</text>
+  </view>
+
+  <view class="select">
+    <button class=" smallbutton ptsmall" bindtap="circle">
+      <image src="../../image/circle.png" class="imgp " mode="" />
+    </button>
+    <button class=" smallbutton ptsmall" bindtap="pre">
+      <image src="../../image/pre.png" class="imgp" mode="" />
+    </button>
+    <button bindtap="switchplay" class="{{pause?'show':'hide'}} bigbutton">
+      <image src="../../image/pause2.png" class="imgp pt " mode="" />
+    </button>
+    <button bindtap="switchpause" class="{{play?'show':'hide'}} bigbutton">
+      <image src="../../image/play.png" class="imgp pt ml" mode="" />
+    </button>
+    <button class=" smallbutton ptsmall" bindtap="next">
+      <image src="../../image/next.png" class="imgp" mode="" />
+    </button>
+    <button class="smallbutton ptsmall" bindtap="displaylist">
+      <image src="../../image/playList.png" class="imgp" mode="" />
+    </button>
+  </view>
+  <view class="{{flag?'list':'hide'}}">
+    <text class="listtext">播放列表({{playlist.length}})</text>
+    <scroll-view scroll-y>
+      <view class="listimgbox " wx:for="{{playlist}}" wx:key="this" data-index="{{index}}" bindtap="listplay">
+
+        <image src="{{item.image}}" class="listimg" mode="" /> <text class="imgtext">{{item.title}}</text><text wx:if="{{playIndex==index}}" class="boastcasetext">正在播放</text>
+
+      </view>
+    </scroll-view>
+
+
+  </view>
+</view>

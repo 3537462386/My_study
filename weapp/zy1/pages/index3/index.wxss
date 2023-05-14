@@ -1,0 +1,10 @@
+.all{
+  text-align: center;
+}
+.box{
+  width: 96%;
+  height: 150rpx;
+  margin: 30rpx auto;
+  line-height: 75rpx;
+  border: 4rpx solid gray;
+}

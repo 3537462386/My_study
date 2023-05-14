@@ -1,0 +1,15 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "发现",
+    "backgroundColor": "#eee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "false"
+  },
+  "navigationBarBackgroundColor": "#F5F5F5",
+  "backgroundColor": "#F5F5F5",
+  "component": true,
+   "navigationBarTitleText": "发现",
+  "usingComponents": {}
+}

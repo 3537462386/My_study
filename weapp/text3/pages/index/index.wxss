@@ -1,0 +1,11 @@
+.container {
+  margin: 2vh;
+  padding: 0;
+}
+.inline {
+  display: flex;
+  margin: 2vh;
+}
+button,input {
+  margin: 2vh;
+}

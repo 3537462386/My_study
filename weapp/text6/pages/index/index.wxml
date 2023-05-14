@@ -1,0 +1,30 @@
+<!--pages/lab/lab6/index.wxml-->
+<view class="page">
+    <view class="box">
+    <view class="header">会议主题</view>
+        <view class="t1">微信开发技术课程教学研讨会</view>
+        <text>
+            主办方：微信开发部
+            承办方：微信事业部
+            协办方：腾讯事业部
+        </text>
+    </view>
+    <view class="box">
+        <view class="header">活动背景</view>
+        <text>小程序是一种全新的连接用户与服务的方式，它可以在微信内被便捷地获取和传播，同时具有出色的使用体验。为了小程序开发技术的讨论与研究，我们邀请了《微信小程序开发零基础入门》作者周文洁，参加这次微信开发技术课程教学研讨会。
+        </text>
+    </view>
+    <view class="box">
+        <view class="header">分享嘉宾</view>
+        <view class='bar' wx:for='{{guest}}' wx:key='guest{{index}}'>
+            <image class='avatar' src='{{item.avatar}}'></image>
+            <view class="text">{{item.name}}</view>
+        </view>
+    </view>
+    <view class="box">
+    <view class="header">会议地点</view>
+        <text class="t2">2023年3月27日-4月1日·厦门</text>
+        <map latitude='{{lat}}' longitude='{{lon}}'></map>
+        <button bindtap='showGuide'>查看详情</button>
+    </view>
+</view>

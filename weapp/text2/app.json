@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/playgame/index",
+    "pages/gamerules/index",
+    "pages/aboutus/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

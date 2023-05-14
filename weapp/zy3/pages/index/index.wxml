@@ -1,0 +1,6 @@
+<view class="box">
+    <view><button class="anniu" type="primary" bindtap="homework1">视频管理</button></view>
+    <view><button class="anniu" type="primary" bindtap="homework2">文件上传</button></view>
+    <view><button class="anniu" type="primary" bindtap="homework4">文件下载</button></view>
+    <view><button class="anniu" type="primary" bindtap="homework3">获取位置</button></view>
+</view>

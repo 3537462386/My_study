@@ -1,0 +1,5 @@
+<view class="contain">
+  <button bindtap="gotoFir">第一题</button>
+  <button bindtap="gotoSec">第二题</button>
+ 
+</view>

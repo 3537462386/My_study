@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+</head>
+<body>
+<script>
+// concurrent 并发  batch 一批 
+// async function br (options) {
+//     let query = {offset:0,limit:options.limit};
+//     do {
+//         batch = await model.findAll(query)
+//         query.offset +=options.limit
+//         if(batch.length){
+//             const promise = doL(batch)
+//                 .then(()=>{
+//                     _.remove(romises,p=>p===promise)
+//                 })
+//                 promise.push(promise)
+//         }
+//     }while {batch.length}
+// }
+// 并发
+br({limit:100,concurrentBatches:5})
+</script>
+</body>
+</html>

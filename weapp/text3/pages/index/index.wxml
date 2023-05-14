@@ -1,0 +1,33 @@
+<view class="container">
+  <form>
+    <text>1.你现在大几？</text>
+    <radio-group bindchange="radioChange" class="inline">
+      <view wx:for="{{list_one}}" wx:key="item{{index}}" style="margin:0 5px;">
+        <radio value="{{item.value}}" />{{item.name}}
+      </view>
+    </radio-group>
+
+    <text>2.你使用手机最大的用途是什么？</text>
+    <checkbox-group bindchange="checkChange" class="inline">
+      <view wx:for="{{list_two}}" wx:key="item{{index}}" style="margin:0 5px;">
+        <checkbox value="{{item.value}}" />{{item.name}}
+      </view>
+    </checkbox-group>
+
+    <text>3.平均每天使用手机多少小时？</text>
+    <slider bindchange="sliderChange" show-value="true" max="24" />
+
+    <text>4.你之前有使用过微信小程序吗？</text>
+    <radio-group bindchange="radiochange" class="inline">
+      <view wx:for="{{list_three}}" wx:key="item{{index}}" style="margin:0 5px;">
+        <radio value="{{item.value}}" />{{item.name}}
+      </view>
+    </radio-group>
+    <text>5.谈谈你对微信小程序未来发展的看法</text>
+    <textarea placeholder="请输入你的看法" auto-height bindblur="getinput"></textarea>
+    <view class="inline">
+      <button style="width: 30%;" type="default" bindtap="commit">提交</button>
+      <button style="width: 30%;" type="default" form-type="reset">重置</button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,11 @@
+.box{
+  display: flex; /*flex模型布局*/
+  flex-direction: column; /*垂直布局*/
+  align-items: center;/*水平方向居中*/
+  justify-content: space-around; /*内容调整*/
+}
+
+.anniu{
+  background: #07c160;
+  margin-top: 30rpx;
+}

@@ -1,0 +1,25 @@
+
+.all{
+  text-align: center;
+}
+.box2{
+  width: 98%;
+  height: 560rpx;
+  margin: 50rpx auto;
+  border: 2rpx solid gray;
+}
+scroll-view{
+  width: 98%;
+  margin: auto;
+  height: 500rpx;
+  white-space: nowrap;
+}
+.scroll-view-x{
+  width: 97%;
+  height: 500rpx;
+  margin: 30rpx auto;
+  background-color: lightcoral;
+  font-size: 30pt;
+  line-height: 500rpx;
+  display: inline-block;
+}

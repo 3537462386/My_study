@@ -1,0 +1,14 @@
+<view class="all">
+  <view class="box1">
+    <text>视图容器的应用</text>
+  </view>
+  <view class="box2">
+    <text>横向滚动</text>
+    <scroll-view scroll-x>
+      <view class="scroll-view-x">第一页</view>
+      <view class="scroll-view-x">第二页</view>
+      <view class="scroll-view-x">第三页</view>
+      <view class="scroll-view-x">第四页</view>
+    </scroll-view>
+  </view>
+</view>

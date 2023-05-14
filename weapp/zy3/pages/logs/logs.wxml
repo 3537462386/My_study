@@ -1,0 +1,10 @@
+<view class="box">
+  <view class="title">视频管理</view>
+  <button bindtap="chooseVideo">选择视频</button>
+  <video id="myVideo" src="{{src}}" class="sp" controls></video>
+  <view class="but">
+    <button type="primary" size="mini" bindtap="play">播放</button>
+    <button type="primary" size="mini" bindtap="pause">暂停</button>
+    <button type="primary" size="mini" bindtap="saveVideo">保存视频</button>
+  </view>
+</view>

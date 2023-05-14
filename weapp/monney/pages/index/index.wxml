@@ -1,0 +1,6 @@
+<view class="container">
+  <scroll-view class="content">
+    <!-- 广告位 -->
+    <w-swiper/>
+  </scroll-view>
+</view>
