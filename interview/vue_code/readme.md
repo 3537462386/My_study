@@ -60,3 +60,35 @@
         - 支持国际化 
     - 实现流程
     - 项目亮点加上设计了某某通用组件
+
+- vue2 和 vue3 响应式的区别
+    defineProperty 与 proxy 区别
+
+
+    - defineProperty 返回的是对象本身
+        proxy 返回的是代理对象
+        通过handler 有多达十几种的对象行为，属性操作拦截
+
+- defineProperty 缺点是什么？
+    -兼容性 es5+
+    - 性能比proxy好 没有生成代理对象 和之中的handler
+    - 可读性更好 学习成本低 
+- defineProperty 缺点是什么？
+    - 对象行为不可以监听
+        get set 是属性的操作
+        proxy has  deleteProperty
+        ownKeys() set()
+        setOwnPropertyDescitor()
+    - 不能监听数组的变化 length
+        通过重写那7个方法达到
+
+- proxy 优点
+    - 代理整个对象
+    - 监听数组
+    - Map Set 监听
+    - 监听新增删除
+
+- reflect 对象理解
+    - Reflect es6 新的内置对象 不能被new
+        Reflect.get set() has()   .   []  =   对象操作符
+    - 结合proxy 替代一些运算符， 支持 拦截 
