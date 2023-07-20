@@ -34,6 +34,7 @@ const login = async (ctx, next) => {
 			code: 0,
 			msg: '用户不存在'
 		}
+		console.log("用户不存在")
 		return;
 	}
 	// 存在用户名，判断密码是否输入正确
@@ -51,12 +52,14 @@ const login = async (ctx, next) => {
 				data: user_data,
 				token: jwtToken
 			}
+			console.log("登录成功")
 		} else {
 			ctx.status = 200
 			ctx.body = {
 				code: -1,
 				msg: '密码错误'
 			}
+			console.log("密码错误")
 		}
 	}
 }
@@ -64,6 +67,7 @@ const login = async (ctx, next) => {
 // 注册操作
 const register = async (ctx, next) => {
 	const { username, password } = ctx.request.body
+	console.log('register', username, password)
 	// 查表
 	let result = await User_col.findOne({
 		username: username
@@ -73,6 +77,7 @@ const register = async (ctx, next) => {
 			code: 0,
 			msg: '用户已存在'
 		}
+		console.log("用户已存在")
 		return;
 	}
 	let newUser = await User_col.create({
@@ -93,11 +98,13 @@ const register = async (ctx, next) => {
 					username: username
 				}
 			}
+			console.log("注册成功")
 		} else {
 			ctx.body = {
 				code: 0,
 				msg: '注册失败'
 			}
+			console.log("注册失败")
 		}
 	})
 

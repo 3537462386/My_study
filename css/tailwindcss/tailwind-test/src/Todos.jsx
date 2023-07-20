@@ -1,14 +1,21 @@
 import { useState } from 'react';
-
+import Todo from './Todo';
+import useLocalStorage from './hooks/useLocalStorage'
 const Todos = () => {
-    const [todos, setTodos] = useState([]);
+    // const [todos, setTodos] = useState([]);
+    const [todos, setTodos] = useLocalStorage('todos', []);
     // vue 双向绑定 react 单向绑定
     const [newTodo, setNewTodo] = useState('');
-    const handleFormSubmit = (e) => {
-        e.preventDefault()
-        if( newTodo.trim()!== '' ) return 
-        setTodos([...todos,newTodo])
-        setNewTodo('')
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+        if (newTodo.trim() === '') return;
+        setTodos([...todos, newTodo]);
+        setNewTodo('');
+    }
+    const handleDeleteTodo = (index) => {
+        const newTodos = [...todos];
+        newTodos.splice(index, 1);
+        setTodos(newTodos);
     }
     return (
         <div className='container max-auto mt-4'>
@@ -28,6 +35,17 @@ const Todos = () => {
                     className="btn-primary"
                 >Add</button>
             </form>
+            <ul>
+                {
+                    todos.map((todo, index) => (
+                        <Todo 
+                            key={index}
+                            todo={todo}
+                            onDelete={() => handleDeleteTodo(index)}
+                        />
+                    ))
+                }
+            </ul>
         </div>  
     )
 }

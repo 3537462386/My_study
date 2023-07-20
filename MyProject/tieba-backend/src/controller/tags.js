@@ -27,7 +27,7 @@ const addTags = async (ctx, next) => {
       msg: '添加成功',
       data: result
     }
-  }
+}
   
 module.exports = {
 	getAllTags,

@@ -28,3 +28,12 @@
         }
         this.data
     - useState 闭包提供状态 
+
+- vue react 区别
+    - react 单向绑定 vue 双向
+    - vue 指令 v-for
+        react 原生js jsx + js 代码
+    - react 事件原生  vue @change 
+    - vue 好入门 react 学习曲线陡峭 
+
+- hooks react 才是发明者

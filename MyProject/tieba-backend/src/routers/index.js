@@ -11,6 +11,7 @@ router.post('/getAllTags', tags_controller.getAllTags)
 router.post('/addTags', tags_controller.addTags)
 // 注册
 router.post('/register', user_controller.register)
+
 router.post('/getAllUser', user_controller.getAll)
 router.post('/getPostByCollect', user_controller.getPostByCollect)
 router.post('/collectPost', user_controller.collectPost)
@@ -29,4 +30,6 @@ router.post('/getPostByUser', post_controller.getPostByUser)
 router.post('/getPostByTags', post_controller.getPostByTags)
 router.post('/getAllPost', post_controller.getAll)
 router.post('/deletePost', post_controller.deletePost)
+router.post('/likePost', post_controller.likePost)
+router.post('/relayPost', post_controller.relayPost)
 module.exports = router
