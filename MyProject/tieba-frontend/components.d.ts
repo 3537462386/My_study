@@ -11,6 +11,7 @@ declare module 'vue' {
     Posts: typeof import('./src/components/Posts.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Text2: typeof import('./src/components/Text2.vue')['default']
     VanActionSheet: typeof import('vant/es')['ActionSheet']
     VanBadge: typeof import('vant/es')['Badge']
     VanCell: typeof import('vant/es')['Cell']

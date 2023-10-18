@@ -111,6 +111,10 @@ const constantRoutes: RouteRecordRaw[] = [
         redirect: '/app',
         meta: { title: 'Root' }
     },
+    {
+        path: '/text',
+        component: () => import('@/text.vue'),
+    },
     ...accessRoutes
 ];
 
